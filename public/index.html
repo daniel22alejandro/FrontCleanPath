@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Second Life &amp; CleanPath</title>
+    <link href="assets/css/theme.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <main class="main" id="top">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-4 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="./assets/img/gallery/recycle-bin.png" height="50" alt="..." /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
+                        <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link fw-medium active" aria-current="page" href="#home">Inicio</a></li>
+                        <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#forums">Foros</a></li>
+                        <!-- Barra de búsqueda -->
+                        <li class="nav-item px-2">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar foros" aria-label="Search">
+                                <button class="btn btn-primary" type="submit">Buscar</button>
+                            </form>
+                        </li>
+                        <li><a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createResena" role="button">Crear Reseña</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="home">
+            <div class="bg-holder" style="background-image:url(assets/img/gallery/hero.png);background-position:center;background-size:cover;"></div>
+
+            <div class="container">
+                <div class="row align-items-center min-vh-50 min-vh-sm-75">
+                    <div class="col-md-5 col-lg-6 order-0 order-md-1"><img class="w-100" src="assets/img/illustrations/hero-header.png" alt="..." /></div>
+                    <div class="col-md-7 col-lg-6 text-md-start text-center">
+                        <h1 class="text-light fs-md-5 fs-lg-6">Clean Path</h1>
+                        <p class="text-light">"Dale una segunda vida a tu basura"</p>
+                        <a class="btn btn-primary" href="#forums" role="button">Ver foros</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-6" id="forums">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xxl-5 text-center mx-auto mb-5">
+                        <h2>Foros reciclaje</h2>
+                    </div>
+                </div>
+                <div class="row h-100">
+                    <!-- Card 1 -->
+                    <div class="col-sm-6 col-md-4 mb-3">
+                        <div class="card card-span shadow py-4 h-100 border-top border-4 border-primary">
+                            <div class="card-body">
+                                <div class="text-center"><img src="..." alt="..." />
+                                    <h5 class="my-3">SHARED HOSTING</h5>
+                                    <ul class="list-unstyled">
+                                        <li>Increase the rank of your</li>
+                                        <li>website by the higher speed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="border-top bg-white text-center pt-3 pb-0">
+                                <div class="d-flex justify-content-center">
+                                    <a class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#forumModal1">Ver foros</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-sm-6 col-md-4 mb-3">
+                        <div class="card card-span shadow py-4 h-100 border-top border-4 border-primary">
+                            <div class="card-body">
+                                <div class="text-center"><img src="..." alt="..." />
+                                    <h5 class="my-3">VPS HOSTING</h5>
+                                    <ul class="list-unstyled">
+                                        <li>Be able to conceal your ID</li>
+                                        <li>whenever needed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="border-top bg-white text-center pt-3 pb-0">
+                                <div class="d-flex justify-content-center">
+                                    <a class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#forumModal2">Ver foros</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="forumModal1" tabindex="-1" aria-labelledby="forumModalLabel1" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="forumModalLabel1">Foro sobre Shared Hosting</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Aquí va la información sobre el foro de Shared Hosting.
+                                    <div class="mt-3">
+                                        <h6>Comentarios:</h6>
+                                        <textarea class="form-control" rows="3" placeholder="Escribe tu comentario aquí..."></textarea>
+                                        <div class="mt-2">
+                                            <button class="btn btn-secondary">Enviar Comentario</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal 2 -->
+                    <div class="modal fade" id="forumModal2" tabindex="-1" aria-labelledby="forumModalLabel2" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="forumModalLabel2">Foro sobre VPS Hosting</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Aquí va la información sobre el foro de VPS Hosting.
+                                    <div class="mt-3">
+                                        <h6>Comentarios:</h6>
+                                        <textarea class="form-control" rows="3" placeholder="Escribe tu comentario aquí..."></textarea>
+                                        <div class="mt-2">
+                                            <button class="btn btn-secondary">Enviar Comentario</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="modal fade" id="createResena" tabindex="-1" aria-labelledby="forumModalLabel2" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="forumModalLabel2">Crea tu reseña</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-3">
+                                        <label for="formFile" class="form-label">Selecciona una imagen</label>
+                                        <input class="form-control" type="file" id="formFile" accept="image/*">
+                                        <div class="form-text">Por favor, sube un archivo de imagen.</div>
+                                        <label for="select">Seleccionar</label>
+                                        <select class="form-select" id="select" aria-label="Default select example">
+                                            <option selected>Seleccionar material</option>
+                                        </select>
+                                        <label for="contenido"></label>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" id="contenido" class="form-label">Example textarea</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Agrega más tarjetas y modales según sea necesario -->
+                </div>
+            </div>
+        </section>
+
+        <script src="vendors/@popperjs/popper.min.js"></script>
+        <script src="vendors/bootstrap/bootstrap.min.js"></script>
+        <script src="vendors/is/is.min.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+        <script src="vendors/fontawesome/all.min.js"></script>
+        <script src="assets/js/theme.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap" rel="stylesheet">
+    </body>
+
+</html>
